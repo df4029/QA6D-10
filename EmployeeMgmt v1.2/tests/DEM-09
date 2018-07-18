@@ -1,0 +1,8 @@
+Test Preconditions:
+Have the application loaded, as in   DEM-2 IDEA  .
+
+Test Script:
+Click "+ Add Employee" at the bottom of the employee list.
+Test Postconditions:
+A new employee record is generated that meets the requirements laid out in   DEM-1 DONE  .
+
