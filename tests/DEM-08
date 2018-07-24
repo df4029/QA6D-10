@@ -1,0 +1,8 @@
+
+Test Preconditions:
+Generate error messages on an employee edit (see   DEM-7 IDEA  if you need directions), taking note of the employee record's original state.
+
+Test Script:
+Click "Cancel"
+Test Postconditions:
+The employee record is returned to its original state, no fields are underlined in red, and no error messages are present.

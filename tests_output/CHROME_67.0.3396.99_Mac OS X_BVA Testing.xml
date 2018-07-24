@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="BVA Testing"
+    errors="0" failures="1" hostname="" id="" package="BVA Testing" skipped="1"
+    tests="3" time="13.05" timestamp="Tue, 24 Jul 2018 05:29:24 GMT">
+  
+    <testcase name="edit employee with good data" classname="BVA Testing" time="12.53" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="edit employee with bad data" classname="BVA Testing" time="0.5170" assertions="1">  <failure message="Expected element &lt;//li[2]&gt; text to equal: &#34;Thissentenceisexactly30charact&#34;">    at editEmployee2 (/Users/danielflanagan/devMtn/EmployeeMgmt v1.2/tests/BVA Testing.js:26:17)
+    at Object.edit employee with bad data (/Users/danielflanagan/devMtn/EmployeeMgmt v1.2/tests/BVA Testing.js:59:9)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="edit employee with no data" classname="BVA Testing">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

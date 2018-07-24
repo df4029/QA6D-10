@@ -3,20 +3,20 @@
             failures="0"
             tests="1">
 
-  <testsuite name="DEM-02"
-    errors="1" failures="0" hostname="" id="" package="DEM-02" skipped="0"
-    tests="1" time="0.003000" timestamp="Tue, 17 Jul 2018 22:32:43 GMT">
+  <testsuite name="DEM-07"
+    errors="1" failures="0" hostname="" id="" package="DEM-07" skipped="0"
+    tests="1" time="0.007000" timestamp="Wed, 18 Jul 2018 05:51:19 GMT">
   
-    <testcase name="DEM-02 Inital page load" classname="DEM-02" time="0.003000" assertions="0">
+    <testcase name="DEM-07 Generating Errors" classname="DEM-07" time="0.007000" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [DEM 02 / DEM-02 Inital page load]:
+        Error while running [DEM 07 / DEM-07 Generating Errors]:
 
-  ReferenceError: verify is not defined
-    at Object.DEM-02 Inital page load (/Users/danielflanagan/devMtn/EmployeeMgmt v1.2/tests/DEM-02.js:14:9)
+  ReferenceError: broser is not defined
+    at Object.DEM-07 Generating Errors (/Users/danielflanagan/devMtn/EmployeeMgmt v1.2/tests/DEM-07.js:38:13)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

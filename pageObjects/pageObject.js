@@ -13,7 +13,11 @@ module.exports = {
         "titleText" :'span[class="titleText"]',
         "footer" :'footer[class="footer"]',
         "titleBar" :'div[class="titleBar"]',
+        "noemployee" :'p[id="noEmployee"]',
+        "infoCard" :'div[class="infoCard"]',
+        "empName" :'p[name="employeeName"]',
         //xpath selectors
+        "listCon" :{ selector: '//ul[1]', locateStrategy: 'xpath' },
         "cell1" :{ selector: '//li[1]', locateStrategy: 'xpath' },
         "cell2" :{ selector: '//li[2]', locateStrategy: 'xpath' },
         "cell3" :{ selector: '//li[3]', locateStrategy: 'xpath' },
@@ -24,8 +28,15 @@ module.exports = {
         "cell8" :{ selector: '//li[8]', locateStrategy: 'xpath' },
         "cell9" :{ selector: '//li[9]', locateStrategy: 'xpath' },
         "cell0" :{ selector: '//li[10]', locateStrategy: 'xpath' },
-        
-
+        "disCan" :{ selector: '//button[2]', locateStrategy: 'xpath' },
+        "newEmp" :{ selector: '//li[11]', locateStrategy: 'xpath' },
+        "namField" :{ selector: '//input[1]', locateStrategy: 'xpath' },
+        "phonField" :{ selector: '//input[2]', locateStrategy: 'xpath' },
+        "titlField" :{ selector: '//input[3]', locateStrategy: 'xpath' },
+        "savButx" :{ selector: '//button[1]', locateStrategy: 'xpath' },
+    
+    
+    
     
     }
 

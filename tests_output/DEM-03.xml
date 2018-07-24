@@ -3,20 +3,20 @@
             failures="0"
             tests="1">
 
-  <testsuite name="DEM-02"
-    errors="1" failures="0" hostname="" id="" package="DEM-02" skipped="0"
-    tests="1" time="0.003000" timestamp="Tue, 17 Jul 2018 22:32:43 GMT">
+  <testsuite name="DEM-03"
+    errors="1" failures="0" hostname="" id="" package="DEM-03" skipped="0"
+    tests="1" time="0.004000" timestamp="Tue, 17 Jul 2018 22:30:07 GMT">
   
-    <testcase name="DEM-02 Inital page load" classname="DEM-02" time="0.003000" assertions="0">
+    <testcase name="DEM-3 Select an Employee" classname="DEM-03" time="0.004000" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [DEM 02 / DEM-02 Inital page load]:
+        Error while running [DEM 03 / DEM-3 Select an Employee]:
 
   ReferenceError: verify is not defined
-    at Object.DEM-02 Inital page load (/Users/danielflanagan/devMtn/EmployeeMgmt v1.2/tests/DEM-02.js:14:9)
+    at Object.DEM-3 Select an Employee (/Users/danielflanagan/devMtn/EmployeeMgmt v1.2/tests/DEM-03.js:24:9)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
