@@ -1,0 +1,11 @@
+
+Test Preconditions:
+Generate error messages on an employee edit (see   DEM-7 IDEA  if you need directions), taking note of the employee record's original state.
+
+Test Script:
+Change one or more fields (in accordance with the requirements laid out in   DEM-1 DONE  )
+Click "Save"
+Test Postconditions:
+Any fields you edited that were in error are no longer underlined and their error message has disappeared.
+
+If all errors have been so addressed, the record is saved as in  DEM-5 IDEA  .
